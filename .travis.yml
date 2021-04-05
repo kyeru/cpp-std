@@ -1,4 +1,4 @@
 language: cpp
 dist: bionic
 compiler: gcc
-script: mkdir build && cmake -B build -S . && cmake --build build && ./build/c++18/c++17_test
+script: mkdir build && cmake -B build -S . && cmake --build build && ./build/c++17/c++17_test
