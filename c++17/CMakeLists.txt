@@ -3,6 +3,7 @@ enable_testing()
 add_executable(c++17_test
     aggregate_initialization.cpp
     constexpr_if.cpp
+    if_initializer.cpp
     nested_namespace.cpp
     structured_binding.cpp
     template_template_param.cpp

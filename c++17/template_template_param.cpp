@@ -8,7 +8,9 @@ struct Param {
 };
 
 TEST(TemplateParam, ParamCheck) {
-    ASSERT_TRUE((std::is_same<Param<std::vector<int>>::elem, std::vector<int>>::value));
+    ASSERT_TRUE((
+        std::is_same<Param<std::vector<int>>::elem,
+        std::vector<int>>::value));
 }
 
 template <template <typename> typename U>
