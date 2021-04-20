@@ -8,6 +8,7 @@ add_executable(c++17_test
     nested_namespace.cpp
     structured_binding.cpp
     template_template_param.cpp
+    variadic_template_fold.cpp
 )
 
 set_property(TARGET c++17_test PROPERTY CXX_STANDARD 17)
